@@ -1,0 +1,49 @@
+body{
+    background:black;
+    color:white;
+    text-align:center;
+    font-family:Arial,sans-serif;
+}
+
+h1{
+    color:cyan;
+}
+
+#oyunAlani{
+    width:400px;
+    height:600px;
+    border:2px solid white;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+    background:#091428;
+}
+
+#roket{
+    position:absolute;
+    bottom:20px;
+    left:180px;
+    font-size:45px;
+   transition: transform 0.1s;
+}
+
+#skor{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+#kontroller{
+    margin-top:20px;
+}
+
+button{
+    font-size:20px;
+    padding:12px 25px;
+    margin:10px;
+    cursor:pointer;
+} 
+
+.cop{
+    position:absolute;
+    font-size:35px;
+}
